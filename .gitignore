@@ -43,4 +43,42 @@ flycheck_*.el
 .projectile
 
 # directory configuration
-.dir-locals.el
+.dir-locals.el#### c++ ##########################
+#### DO NOT DELETE PRECEDING LINE
+#### PINE
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+#### DO NOT DELETE THIS LINE
+
+
+
