@@ -9,19 +9,19 @@ echo "Creating a directory for performing tests and switching to it..."
 mkdir testingspace
 
 echo "Starting pine..."
-`../../pine` || exit 1
+`./pine` || exit 1
 
 echo "Testing configs for c and c++"
-`../../pine c c++` || exit 1
+`./pine c c++` || exit 1
 
 echo "Listing all configurations..."
-`../../pine --list` || exit 1
+`./pine --list` || exit 1
 
 echo "Listing all configurations..."
-`../../pine --list` || exit 1
+`./pine --list` || exit 1
 
 echo "Printing help text..."
-`../../pine --help` || exit 
+`./pine --help` || exit 
 
 echo "Printing version..."
-`../../pine --version` || exit 1
+`./pine --version` || exit 1
