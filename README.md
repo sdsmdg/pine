@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/suyashmahar/pine.svg?branch=master)](https://travis-ci.org/suyashmahar/pine)  
 Pine  
 ====  
 
